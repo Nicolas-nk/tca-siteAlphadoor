@@ -1,0 +1,51 @@
+
+
+.aviso{
+    display: block;
+}
+
+#home{
+    display: none;
+}
+
+#sobre{
+    display: none;
+}
+
+#produtos{
+    display: none;
+}
+
+#fotos{
+    display: none;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aviso div{
+    width: 450px;
+    padding: 5vh;
+    border-radius: 20px;
+    margin: auto;
+    color: black;
+    background-color: rgb(250, 19, 19);
+
+}
+
+.aviso p{
+    margin-top: 8px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aviso h1{
+    margin-bottom: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+
